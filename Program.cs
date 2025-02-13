@@ -18,6 +18,7 @@
                 Console.WriteLine("3. Delete a book");
                 Console.WriteLine("4. Search books");
                 Console.WriteLine("5. Exit");
+                Console.WriteLine("6. Add a book");
                 Console.Write("Enter your choice: ");
 
                 if (int.TryParse(Console.ReadLine(), out int choice))
